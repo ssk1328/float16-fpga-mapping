@@ -5,7 +5,7 @@
 // 
 // Create Date:    22:54:41 07/05/2016 
 // Design Name: 
-// Module Name:    add 
+// Module Name:    mult
 // Project Name: 
 // Target Devices: 
 // Tool versions: 
@@ -19,11 +19,11 @@
 //
 //////////////////////////////////////////////////////////////////////////////////
 module mult(
-    input [5:0] a,
-    input [5:0] b,
-    output [6:0] c
+    input [10:0] a,
+    input [10:0] b,
+    output [21:0] c
     );
 
-assign c = a+b-15;
+assign c = a*b;
 
 endmodule
