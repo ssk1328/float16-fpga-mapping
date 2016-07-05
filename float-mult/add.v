@@ -20,10 +20,10 @@
 //////////////////////////////////////////////////////////////////////////////////
 module add(
     input [4:0] a,
-    input [4:0] exp_adjust,
+    input [4:0] b,
     output [5:0] c
     );
 
-assign c = a - exp_adjust ;
+assign c = a + b - 15 ;
 
 endmodule

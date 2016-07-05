@@ -5,7 +5,7 @@
 // 
 // Create Date:    23:00:24 07/05/2016 
 // Design Name: 
-// Module Name:    add 
+// Module Name:    exp_adjust
 // Project Name: 
 // Target Devices: 
 // Tool versions: 
